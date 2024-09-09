@@ -1,0 +1,33 @@
+
+public class main{
+	public static void main(String [] args)
+	{
+	if(args.length !=3)
+	{
+	 double n1 = Double.parseDouble(args[0]);
+	 double n2 = Doubble.parseDoule(args[1]);
+	 String symbol = args[2];
+	 Calculator calculator = new Calcutor();
+	 double result = calculator.calculate(n1.n2,symbol);
+	 System.out.println(result);
+
+	}
+	}
+	class Calculator {
+	public double calculate(double n1, double n2, String symbol )
+	{
+	switch(symbol)
+	{
+	case "+":
+	return n1 + n2:
+	case "-":
+	return n1 - n2:
+	case "*":
+	return n1 * n2:
+	case "/":
+	if (n2 = 0);
+	default : throw new IllegalArgumentException("Invalid Symbol:")
+	}
+	}
+	}
+}
